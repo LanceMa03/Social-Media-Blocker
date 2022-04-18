@@ -23,4 +23,7 @@ Disclaimer: This was made in less than a hour, so it's not the best :)
 
 
 
-Video Credits: https://www.youtube.com/watch?v=cnrxJtJcSew&ab_channel=LiamMoore
+Video Credits: 
+https://www.youtube.com/watch?v=cnrxJtJcSew&ab_channel=LiamMoore
+https://www.youtube.com/watch?v=iJAxeafvn8Y&ab_channel=AngelicMusicWorld
+https://www.youtube.com/watch?v=YG4iTGjuoKw&ab_channel=%E6%B5%B7%E8%9D%B6%E9%9F%B3%E6%A8%82%2F%E5%A4%AA%E5%90%88%E9%9F%B3%E6%A8%82TaiheMusic-%E7%B2%BE%E9%81%B8
