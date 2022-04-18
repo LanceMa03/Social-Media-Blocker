@@ -1,7 +1,19 @@
 const generateHTML0 = (websiteName) => {
+
+
   return ` 
     
+
+  <style>
+
+  html, body {
+    background-color: #191B1C !important;
+  }
+  
+  </style>
+
     <body>
+
 
     <div style = "display: flex; align-items:center; justify-content:center;" class = "title">
 
@@ -18,12 +30,21 @@ const generateHTML0 = (websiteName) => {
     </div>
 
     </body>
+
     `;
 };
 
 const generateHTML1 = (websiteName) => {
   return ` 
     
+  <style>
+
+  html, body {
+    background-color: #191B1C !important;
+  }
+  
+  </style>
+
     <body>
 
     <div style = "display: flex; align-items:center; justify-content:center;" class = "title">
@@ -44,7 +65,15 @@ const generateHTML1 = (websiteName) => {
 };
 
 const generateHTML2 = (websiteName) => {
-  return ` 
+  return `
+  
+  <style>
+
+  html, body {
+    background-color: #191B1C !important;
+  }
+  
+  </style>
     
     <body>
 
