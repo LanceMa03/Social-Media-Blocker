@@ -1,6 +1,5 @@
-const generateHTML0 =  (websiteName) => {
-
-    return ` 
+const generateHTML0 = (websiteName) => {
+  return ` 
     
     <body>
 
@@ -22,9 +21,8 @@ const generateHTML0 =  (websiteName) => {
     `;
 };
 
-const generateHTML1 =  (websiteName) => {
-
-    return ` 
+const generateHTML1 = (websiteName) => {
+  return ` 
     
     <body>
 
@@ -45,9 +43,8 @@ const generateHTML1 =  (websiteName) => {
     `;
 };
 
-const generateHTML2 =  (websiteName) => {
-
-    return ` 
+const generateHTML2 = (websiteName) => {
+  return ` 
     
     <body>
 
@@ -68,118 +65,98 @@ const generateHTML2 =  (websiteName) => {
     `;
 };
 
-
 function getRandomNumber(max) {
-    return Math.floor(Math.random() * max);
+  return Math.floor(Math.random() * max);
 }
 
 switch (window.location.hostname) {
+  case "www.youtube.com":
+    var randNum = getRandomNumber(3);
+    console.log(randNum);
 
+    if (randNum == 0) {
+      document.body.innerHTML = generateHTML0("Youtube");
+      break;
+    } else if (randNum == 1) {
+      document.body.innerHTML = generateHTML1("Youtube");
+      break;
+    } else if (randNum == 2) {
+      document.body.innerHTML = generateHTML2("Youtube");
+      break;
+    }
 
-    case "www.youtube.com":
+  case "twitter.com":
+    var randNum = getRandomNumber(3);
+    console.log(randNum);
 
-        var randNum = getRandomNumber(3)
-        console.log(randNum);
+    if (randNum == 0) {
+      document.body.innerHTML = generateHTML0("Youtube");
+      break;
+    } else if (randNum == 1) {
+      document.body.innerHTML = generateHTML1("Youtube");
+      break;
+    } else if (randNum == 2) {
+      document.body.innerHTML = generateHTML2("Youtube");
+      break;
+    }
 
-        if (randNum == 0) {
-            document.body.innerHTML = generateHTML0("Youtube");
-            break;
-        }
-        else if (randNum == 1) {
-            document.body.innerHTML = generateHTML1("Youtube");
-            break;
-        }
-        else if (randNum == 2) {
-            document.body.innerHTML = generateHTML2("Youtube");
-            break;
-        }
+  case "www.facebook.com":
+    var randNum = getRandomNumber(3);
+    console.log(randNum);
 
-    
-    case "www.twitter.com":
-        var randNum = getRandomNumber(3)
-        console.log(randNum);
+    if (randNum == 0) {
+      document.body.innerHTML = generateHTML0("Youtube");
+      break;
+    } else if (randNum == 1) {
+      document.body.innerHTML = generateHTML1("Youtube");
+      break;
+    } else if (randNum == 2) {
+      document.body.innerHTML = generateHTML2("Youtube");
+      break;
+    }
 
-        if (randNum == 0) {
-            document.body.innerHTML = generateHTML0("Youtube");
-            break;
-        }
-        else if (randNum == 1) {
-            document.body.innerHTML = generateHTML1("Youtube");
-            break;
-        }
-        else if (randNum == 2) {
-            document.body.innerHTML = generateHTML2("Youtube");
-            break;
-        }
+  case "www.instagram.com":
+    var randNum = getRandomNumber(3);
+    console.log(randNum);
 
-    case "www.facebook.com":
-        var randNum = getRandomNumber(3)
-        console.log(randNum);
+    if (randNum == 0) {
+      document.body.innerHTML = generateHTML0("Youtube");
+      break;
+    } else if (randNum == 1) {
+      document.body.innerHTML = generateHTML1("Youtube");
+      break;
+    } else if (randNum == 2) {
+      document.body.innerHTML = generateHTML2("Youtube");
+      break;
+    }
 
-        if (randNum == 0) {
-            document.body.innerHTML = generateHTML0("Youtube");
-            break;
-        }
-        else if (randNum == 1) {
-            document.body.innerHTML = generateHTML1("Youtube");
-            break;
-        }
-        else if (randNum == 2) {
-            document.body.innerHTML = generateHTML2("Youtube");
-            break;
-        }
-    
-    case "www.instagram.com":
-        var randNum = getRandomNumber(3)
-        console.log(randNum);
+  case "www.tiktok.com":
+    var randNum = getRandomNumber(3);
+    console.log(randNum);
 
-        if (randNum == 0) {
-            document.body.innerHTML = generateHTML0("Youtube");
-            break;
-        }
-        else if (randNum == 1) {
-            document.body.innerHTML = generateHTML1("Youtube");
-            break;
-        }
-        else if (randNum == 2) {
-            document.body.innerHTML = generateHTML2("Youtube");
-            break;
-        }
+    if (randNum == 0) {
+      document.body.innerHTML = generateHTML0("Youtube");
+      break;
+    } else if (randNum == 1) {
+      document.body.innerHTML = generateHTML1("Youtube");
+      break;
+    } else if (randNum == 2) {
+      document.body.innerHTML = generateHTML2("Youtube");
+      break;
+    }
 
-    case "www.tiktok.com":
-        var randNum = getRandomNumber(3)
-        console.log(randNum);
+  case "www.reddit.com":
+    var randNum = getRandomNumber(3);
+    console.log(randNum);
 
-        if (randNum == 0) {
-            document.body.innerHTML = generateHTML0("Youtube");
-            break;
-        }
-        else if (randNum == 1) {
-            document.body.innerHTML = generateHTML1("Youtube");
-            break;
-        }
-        else if (randNum == 2) {
-            document.body.innerHTML = generateHTML2("Youtube");
-            break;
-        }
-    
-    case "www.reddit.com":
-        var randNum = getRandomNumber(3)
-        console.log(randNum);
-
-        if (randNum == 0) {
-            document.body.innerHTML = generateHTML0("Youtube");
-            break;
-        }
-        else if (randNum == 1) {
-            document.body.innerHTML = generateHTML1("Youtube");
-            break;
-        }
-        else if (randNum == 2) {
-            document.body.innerHTML = generateHTML2("Youtube");
-            break;
-        }
-
-   
+    if (randNum == 0) {
+      document.body.innerHTML = generateHTML0("Youtube");
+      break;
+    } else if (randNum == 1) {
+      document.body.innerHTML = generateHTML1("Youtube");
+      break;
+    } else if (randNum == 2) {
+      document.body.innerHTML = generateHTML2("Youtube");
+      break;
+    }
 }
-
