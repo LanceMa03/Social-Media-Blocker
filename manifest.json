@@ -1,6 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Twitter Blocker", 
+    "description": "Chrome Extention that blocks your favorite social media sites, so you can do less scrolling and more studying.",
+    "name": "Social Media Blocker", 
     "version" : "0.1.0",
     "content_scripts": [ 
         {
@@ -10,6 +11,12 @@
         "css" : ["style.css"]
 
        }
+
+    ]
+    ,"permissions": [
+        "webrequest",
+        "*://www.twitter.com/*",
+        "webRequestBlocking"
 
     ]
     
