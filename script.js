@@ -13,7 +13,7 @@ const generateHTML0 =  (websiteName) => {
 
    <div style = "display: flex;  align-items:center; justify-content:center" class = "vid">
    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/cnrxJtJcSew?start=91&autoplay=1&showinfo=0&controls=0&loop=1"   
+    <iframe style = "pointer-events: none;" width="560" height="315" src="https://www.youtube.com/embed/cnrxJtJcSew?start=91&autoplay=1&showinfo=0&controls=0&loop=1"   
     allow="autoplay;" frameborder="0" allowfullscreen></iframe>
 
     </div>
@@ -36,7 +36,7 @@ const generateHTML1 =  (websiteName) => {
 
    <div style = "display: flex;  align-items:center; justify-content:center" class = "vid">
    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/iJAxeafvn8Y?autoplay=1&showinfo=0&controls=0&loop=1"   
+    <iframe style = "pointer-events: none;" width="560" height="315" src="https://www.youtube.com/embed/iJAxeafvn8Y?autoplay=1&showinfo=0&controls=0&loop=1"   
     allow="autoplay;" frameborder="0" allowfullscreen></iframe>
 
     </div>
@@ -59,7 +59,7 @@ const generateHTML2 =  (websiteName) => {
 
    <div style = "display: flex;  align-items:center; justify-content:center" class = "vid">
    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YG4iTGjuoKw?start=61&autoplay=1&showinfo=0&controls=0&loop=1"   
+    <iframe style = "pointer-events: none;" width="560" height="315" src="https://www.youtube.com/embed/YG4iTGjuoKw?start=61&autoplay=1&showinfo=0&controls=0&loop=1"   
     allow="autoplay;" frameborder="0" allowfullscreen></iframe>
 
     </div>
