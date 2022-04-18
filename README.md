@@ -2,6 +2,8 @@
 
 Disclaimer: This was made in less than a hour, so it's not the best :)
 
+This currently supports: Twitter, Instagram, Facebook, Reddit, TikTok, and YouTube
+
 ## To Run/ Initial SetUp:
 
 1, Download the file and open Chrome
