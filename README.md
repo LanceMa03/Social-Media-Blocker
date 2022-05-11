@@ -24,12 +24,14 @@ This currently supports: Twitter, Instagram, Facebook, Reddit, TikTok, and YouTu
 
 ## TODO:
 
-1. Add HTML popup
+1. Add HTML popup or maybe just make redirect page look better
 
 2. Allow users to enter custom websites 
 
 
 ## Video Credits: 
+
+- The videos were added for fun :)
 
 - [Video 1](https://www.youtube.com/watch?v=cnrxJtJcSew&ab_channel=LiamMoore)
 
