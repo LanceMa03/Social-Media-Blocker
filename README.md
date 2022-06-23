@@ -1,6 +1,10 @@
+# UPDATED PROJECT
+
+[HERE](https://github.com/LanceMa03/Website-Blocker-Chrome-Extension)
+
 # Social-Media-Blocker
 
-Disclaimer: This was made in less than a hour, so it's not the best :)
+Chrome Extention that blocks your favorite social media websites, so you can do less scrolling and more studying.
 
 This currently supports: Twitter, Instagram, Facebook, Reddit, TikTok, and YouTube
 
@@ -21,13 +25,6 @@ This currently supports: Twitter, Instagram, Facebook, Reddit, TikTok, and YouTu
 2. You should see a dropdown of all your chrome extentions, and click on "Manage Extentions"
 
 3. Inside there you should should see the button to turn off the extention
-
-## TODO:
-
-1. Add HTML popup or maybe just make redirect page look better
-
-2. Allow users to enter custom websites 
-
 
 ## Video Credits: 
 
